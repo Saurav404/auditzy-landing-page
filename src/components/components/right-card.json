@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_right_cards",
+  "info": {
+    "displayName": "heroRightCard",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "right_card_component": {
+      "heading": {
+        "type": "string"
+      },
+      "displayName": "rightCardComponent",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.right-card-component"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

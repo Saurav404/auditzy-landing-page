@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_home_work_flow_sections",
+  "info": {
+    "displayName": "homeWorkFlowSection",
+    "icon": "business-time",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "steps": {
+      "displayName": "steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.steps"
+    },
+    "workflow_card": {
+      "displayName": "workflowCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.workflow-card"
+    }
+  }
+}

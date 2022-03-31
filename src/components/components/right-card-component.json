@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_right_card_components",
+  "info": {
+    "displayName": "rightCardComponent",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}

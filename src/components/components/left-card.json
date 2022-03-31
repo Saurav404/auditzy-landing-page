@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_left_cards",
+  "info": {
+    "displayName": "heroLeftCard",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "progress": {
+      "type": "string"
+    },
+    "review": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_home_try_now_sections",
+  "info": {
+    "displayName": "homeTryNowSection",
+    "icon": "burn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "bg_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button-components"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_components_center_cards",
+  "info": {
+    "displayName": "heroCenterCard",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "heading_progressbar_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "graph_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "graph_progress": {
+      "displayName": "graphProgress",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.graph-progress-component"
+    },
+    "progress_bar": {
+      "displayName": "progressBar",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.progress-bar"
+    },
+    "date": {
+      "type": "date"
+    },
+    "time": {
+      "type": "time"
+    },
+    "last_audit": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.button-components"
+    },
+    "link":{
+        "type":"string"
+    }
+  }
+}

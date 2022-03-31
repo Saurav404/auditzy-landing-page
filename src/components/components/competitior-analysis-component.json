@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_components_competitior_analysis_components",
+  "info": {
+    "displayName": "competitionAnalysis",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "analysis_graph_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "month_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "progress_bar": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.progress-bar"
+    }
+  }
+}

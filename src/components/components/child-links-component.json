@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_child_links_components",
+  "info": {
+    "displayName": "childLinksComponent",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "child_name": {
+      "type": "string"
+    },
+    "child_url": {
+      "type": "string"
+    }
+  }
+}

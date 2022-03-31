@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_sections_home_hero_sections",
+  "info": {
+    "displayName": "homeHeroSection",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "bg_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "email_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.button-components"
+    },
+    "left_card": {
+      "displayName": "leftCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.left-card"
+    },
+    "right_card": {
+      "displayName": "rightCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.right-card"
+    },
+    "center_card": {
+      "displayName": "centerCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.center-card"
+    }
+  }
+}

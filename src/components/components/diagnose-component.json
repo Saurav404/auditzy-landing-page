@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_diagnose_components",
+  "info": {
+    "displayName": "diagnoseComponent",
+    "icon": "balance-scale-right"
+  },
+  "options": {},
+  "attributes": {
+    "check_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

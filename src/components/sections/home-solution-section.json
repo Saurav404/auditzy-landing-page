@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_home_solution_sections",
+  "info": {
+    "displayName": "HomeSolutionSection",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "company_logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "type_of_business": {
+      "displayName": "typeOfBusiness",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.type-of-business"
+    }
+  }
+}

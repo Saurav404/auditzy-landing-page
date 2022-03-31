@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_workflow_cards",
+  "info": {
+    "displayName": "workflowCard",
+    "icon": "border-style"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

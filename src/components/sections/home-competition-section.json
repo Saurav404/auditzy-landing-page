@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_home_competition_sections",
+  "info": {
+    "displayName": "homeCompetitionSection",
+    "icon": "bacon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "check_box": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.check-box-component"
+    },
+    "competiton_analysis": {
+      "displayName": "competitiorAnalysisComponent",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.competitior-analysis-component"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button-components"
+    }
+  }
+}

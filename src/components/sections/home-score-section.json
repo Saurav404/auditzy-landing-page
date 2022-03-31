@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_home_score_sections",
+  "info": {
+    "displayName": "homeScoreSection",
+    "icon": "battery-three-quarters"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "progress_bar": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.progress-bar"
+    },
+    "progress_bar_link": {
+      "type": "string"
+    }
+  }
+}

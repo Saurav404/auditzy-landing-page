@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_steps",
+  "info": {
+    "displayName": "steps",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "step_number": {
+      "type": "integer"
+    },
+    "bg_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

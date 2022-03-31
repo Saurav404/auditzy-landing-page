@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_button_components",
+  "info": {
+    "displayName": "buttonComponents",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button_text": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    }
+  }
+}

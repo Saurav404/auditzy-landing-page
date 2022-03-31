@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_home_compare_and_enhance_sections",
+  "info": {
+    "displayName": "homeCompareAndEnhanceSection",
+    "icon": "biking"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "check_box": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.check-box-component"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button-components"
+    }
+  }
+}

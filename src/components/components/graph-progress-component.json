@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_graph_progress",
+  "info": {
+    "displayName": "graphProgress",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "colour_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

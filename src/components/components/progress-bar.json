@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_progress_bar",
+  "info": {
+    "displayName": "progressBar",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "progress_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

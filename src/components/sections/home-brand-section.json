@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_home_brand_sections",
+  "info": {
+    "displayName": "HomeBrandSection",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "brand_names": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button-components"
+    }
+  }
+}

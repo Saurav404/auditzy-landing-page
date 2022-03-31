@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_home_diagnose_sections",
+  "info": {
+    "displayName": "homeDiagnoseSection",
+    "icon": "balance-scale",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button-components"
+    },
+    "diagnose_component": {
+      "displayName": "diagnoseComponent",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.diagnose-component"
+    }
+  }
+}

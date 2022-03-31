@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_check_box_components",
+  "info": {
+    "displayName": "checkBoxComponent",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "check_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

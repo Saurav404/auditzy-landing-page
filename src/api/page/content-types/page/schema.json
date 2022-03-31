@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.home-hero-section",
+        "sections.home-brand-section",
+        "sections.home-solution-section",
+        "sections.home-diagnose-section",
+        "sections.home-features-section",
+        "sections.home-analysis-section",
+        "sections.home-competition-section",
+        "sections.home-compare-and-enhance-section",
+        "sections.home-score-section",
+        "sections.home-work-flow-section",
+        "sections.home-try-now-section"
+      ]
+    }
+  }
+}

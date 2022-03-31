@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_footer_components",
+  "info": {
+    "displayName": "footerComponent",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "parent_name": {
+      "type": "string"
+    },
+    "childLinksComponents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.child-links-component"
+    }
+  }
+}
